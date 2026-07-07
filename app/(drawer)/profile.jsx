@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Tabs } from 'expo-router'
+import MyBG from '../../components/MyBG'
 
-export default function _layout() {
+export default function profile() {
   return (
-    <Tabs></Tabs>
+    <MyBG>
+        
+    </MyBG>
   )
 }
 
